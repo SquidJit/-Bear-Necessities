@@ -32,6 +32,9 @@ public class AnimalAI: MonoBehaviour
     //Store previous idle points for reference
     List<Vector3> previousIdlePoints = new List<Vector3>();
 
+    //public UnitHealth animalhealth = new UnitHealth(100, 100);
+    //animal health to use for taking damage and healing
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
