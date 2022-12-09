@@ -5,10 +5,11 @@ using TMPro;
 
 public class UI : MonoBehaviour
 {
-    private int health;
+    public int health;
     private int maxhealth;
-    public TextMeshProUGUI healthNumber;
-    public GameManager healthinstance;
+    public TMPro.TextMeshProUGUI myText;
+    public BearHealth currenthealth;
+    
 
 
     void Start()
@@ -21,6 +22,9 @@ public class UI : MonoBehaviour
 
     void Update()
     {
-        healthNumber.SetText(health + "/" + maxhealth);
+        //healthNumber.SetText(health + "/" + maxhealth);
+        myText.text = "Health =" + " " + currenthealth.health.ToString();
     }
+   
+   
 }

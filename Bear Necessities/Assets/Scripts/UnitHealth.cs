@@ -1,11 +1,11 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class UnitHealth
 {
 
-    private bool isPlayer = false;
+ /*   private bool isPlayer = false;
     //fields
     private int _currentHealth;
     private int _MaxHealth;
@@ -65,4 +65,4 @@ public class UnitHealth
         }
     }
 
-}
+}*/

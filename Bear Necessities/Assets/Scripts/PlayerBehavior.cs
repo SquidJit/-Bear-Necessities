@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -24,4 +24,4 @@ public class PlayerBehavior : MonoBehaviour
     {
         GameManager.gameManager._playerHealth.HealUnit(heal);
     }
-}
+}*/
