@@ -29,7 +29,8 @@ public class BearHealth : MonoBehaviour
         {
             if (health > 0)
             {
-                health--;
+                health = health-1;
+                m_WaitTime = startWaitTime;
             }
             else
             {
@@ -41,7 +42,15 @@ public class BearHealth : MonoBehaviour
             m_WaitTime -= Time.deltaTime;
         }
 
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Animal")
+        {
+            health = health + 3;
         }
     }
+}
    
 

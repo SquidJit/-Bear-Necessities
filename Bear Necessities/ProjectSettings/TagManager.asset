@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DamageCollider
   - HumanNPC
+  - Animal
   layers:
   - Default
   - TransparentFX
