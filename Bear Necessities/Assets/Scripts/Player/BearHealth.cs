@@ -8,31 +8,40 @@ public class BearHealth : MonoBehaviour
 
     public int maxHealth = 100;
     public int health;
+    public float startWaitTime = 5;
+
+    public float m_WaitTime;
 
     // Start is called before the first frame update
     void Start()
     {
         health = maxHealth;
+        m_WaitTime = startWaitTime;
     }
 
    public void Update()
     {
-        for(int i=0; i < 100; i++)
-        {
-            TakeDamage();
-        }
+        TakeDamage();
     }
     public void TakeDamage()
     {
-        if (health > 0)
+        if (m_WaitTime <= 0)
         {
-            health--;
+            if (health > 0)
+            {
+                health--;
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
         else
         {
-            Destroy(gameObject);
+            m_WaitTime -= Time.deltaTime;
         }
-        
+
+        }
     }
-  
-}
+   
+
