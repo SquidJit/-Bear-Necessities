@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using System;
 
 public class HumanAI : MonoBehaviour
-{ 
+{
 
       public NavMeshAgent navMeshAgent;
       public float startWaitTime = 4;
@@ -55,6 +56,7 @@ public class HumanAI : MonoBehaviour
         animator = GetComponent<Animator>();
 
 
+
 }
 
 // Update is called once per frame
@@ -62,8 +64,15 @@ public class HumanAI : MonoBehaviour
     {
      EnviromentView();
      Patroling();
+        try
+        {
+            animator.SetFloat("Speed", navMeshAgent.velocity.magnitude);
+        }
 
-        animator.SetFloat("Speed", navMeshAgent.velocity.magnitude);
+        catch(Exception e)
+        {
+            Debug.Log("oops");
+        }
     }
 
 
