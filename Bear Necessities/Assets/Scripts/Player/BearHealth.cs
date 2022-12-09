@@ -29,7 +29,7 @@ public class BearHealth : MonoBehaviour
         {
             if (health > 0)
             {
-                health = health-1;
+                health = health-5;
                 m_WaitTime = startWaitTime;
             }
             else
