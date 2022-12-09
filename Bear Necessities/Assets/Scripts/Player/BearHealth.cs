@@ -15,9 +15,24 @@ public class BearHealth : MonoBehaviour
         health = maxHealth;
     }
 
+   public void Update()
+    {
+        for(int i=0; i < 100; i++)
+        {
+            TakeDamage();
+        }
+    }
     public void TakeDamage()
     {
-
+        if (health > 0)
+        {
+            health--;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        
     }
   
 }

@@ -6,7 +6,6 @@ using TMPro;
 public class UI : MonoBehaviour
 {
     public int health;
-    private int maxhealth;
     public TMPro.TextMeshProUGUI myText;
     public BearHealth currenthealth;
     
