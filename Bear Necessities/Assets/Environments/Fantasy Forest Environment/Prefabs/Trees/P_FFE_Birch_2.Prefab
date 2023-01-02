@@ -30,6 +30,7 @@ Transform:
   m_Children:
   - {fileID: 92448483437003873}
   - {fileID: 5863041922943656760}
+  - {fileID: 4536659048001833168}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -47,7 +48,7 @@ LODGroup:
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.1361051
+  - screenRelativeHeight: 0.054054465
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 92448483439298177}
@@ -56,6 +57,60 @@ LODGroup:
     renderers:
     - renderer: {fileID: 4690104614125066327}
   m_Enabled: 1
+--- !u!1 &3196110415098248325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4536659048001833168}
+  - component: {fileID: 6160231040322107392}
+  - component: {fileID: 2279302898425345508}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4536659048001833168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196110415098248325}
+  m_LocalRotation: {x: 0.15145402, y: 0.0034611984, z: -0.021386245, w: 0.9882269}
+  m_LocalPosition: {x: -0.007, y: 1.131, z: 0.335}
+  m_LocalScale: {x: 0.44596, y: 1.3563, z: 0.47584718}
+  m_Children: []
+  m_Father: {fileID: 448536}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 17.427, y: 0.022, z: -2.476}
+--- !u!33 &6160231040322107392
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196110415098248325}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &2279302898425345508
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196110415098248325}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &92448483437403873
 PrefabInstance:
   m_ObjectHideFlags: 0

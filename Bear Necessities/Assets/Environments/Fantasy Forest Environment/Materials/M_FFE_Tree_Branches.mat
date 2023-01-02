@@ -72,6 +72,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AlphaCutoff: 0.5
     - _BumpScale: 1
     - _CullMode: 0
     - _Cutoff: 0.5
@@ -93,7 +94,7 @@ Material:
     - _LeavesWindSpeed: 0.485
     - _LeavesWindStrength: 0.1
     - _MainBendingMultiplier: 1
-    - _MainBendingStrength: 0.856
+    - _MainBendingStrength: 0.85
     - _Metallic: 0
     - _Mode: 0
     - _MotionRange: 0.082

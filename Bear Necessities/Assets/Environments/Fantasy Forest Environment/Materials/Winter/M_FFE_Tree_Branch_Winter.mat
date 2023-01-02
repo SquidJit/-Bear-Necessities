@@ -38,13 +38,12 @@ Material:
     - _LeafBendingStrength: 1
     - _LeafDownwardSpeed: 1
     - _LeafDownwardStrength: 0.15
-    - _LeafFlutterSpeed: 1
     - _LeafForwardStrength: 0.2
     - _LeafNoiseScale: 1
     - _LeavesWindSpeed: 0
     - _LeavesWindStrength: 0
     - _MainBendingMultiplier: 1
-    - _MainBendingStrength: 0.8
+    - _MainBendingStrength: 1
     - _Shininess: 0.1
     - _Smoothness: 0
     - _WindDirectionRandomness: 0

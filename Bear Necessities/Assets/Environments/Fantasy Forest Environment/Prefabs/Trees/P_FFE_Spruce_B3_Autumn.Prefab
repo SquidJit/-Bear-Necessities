@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4788446294871476}
   - component: {fileID: 205925618857573774}
   m_Layer: 0
-  m_Name: spruce_b3_autumn
+  m_Name: P_FFE_Spruce_B3_Autumn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,7 +47,7 @@ LODGroup:
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.15340742
+  - screenRelativeHeight: 0.04647043
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 23308748275782266}
@@ -112,6 +112,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -137,6 +138,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &136452981425176960
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -158,63 +160,51 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4788446294871476}
     m_Modifications:
-    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564,
-        type: 3}
+    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564,
-        type: 3}
+    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564,
-        type: 3}
+    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564,
-        type: 3}
+    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564,
-        type: 3}
+    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564,
-        type: 3}
+    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564,
-        type: 3}
+    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564,
-        type: 3}
+    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564,
-        type: 3}
+    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564,
-        type: 3}
+    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564,
-        type: 3}
+    - target: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1841069064860773137, guid: ea013aa6389df0e48bd869d35fba1564,
-        type: 3}
+    - target: {fileID: 1841069064860773137, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
       propertyPath: m_Name
       value: Spruce_b3_billboard_autumn
       objectReference: {fileID: 0}
@@ -222,13 +212,11 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
 --- !u!4 &5571622361169444028 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 1353078954890424747, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
   m_PrefabInstance: {fileID: 6887546614570568983}
   m_PrefabAsset: {fileID: 0}
 --- !u!23 &6708478710594357203 stripped
 MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 183582155124968132, guid: ea013aa6389df0e48bd869d35fba1564,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 183582155124968132, guid: ea013aa6389df0e48bd869d35fba1564, type: 3}
   m_PrefabInstance: {fileID: 6887546614570568983}
   m_PrefabAsset: {fileID: 0}
